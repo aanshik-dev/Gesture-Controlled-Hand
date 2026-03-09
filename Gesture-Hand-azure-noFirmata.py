@@ -7,8 +7,6 @@ import azure.cognitiveservices.speech as speechsdk
 import re
 import serial
 
-
-
 from mediapipe.python.solutions import hands as mp_hands
 from mediapipe.python.solutions import drawing_utils as mp_drawing
 
@@ -438,4 +436,3 @@ with mp_hands.Hands(
 
 cap.release()
 cv2.destroyAllWindows()
-board.exit()
