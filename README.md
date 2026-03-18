@@ -6,16 +6,16 @@ A Python-based system that uses computer vision and speech recognition to contro
 
 ## 📋 Table of Contents
 
-- [Project Overview](#project-overview)
-- [Hardware Requirements](#hardware-requirements)
-- [Software Requirements](#software-requirements)
-- [Installation](#installation)
-- [Hardware Setup](#hardware-setup)
-- [Code Explanation](#code-explanation)
-- [Usage Instructions](#usage-instructions)
-- [Features](#features)
-- [Troubleshooting](#troubleshooting)
-- [Credits](#credits)
+- Project Overview
+- Hardware Requirements
+- Software Requirements
+- Installation
+- Hardware Setup
+- Code Explanation
+- Usage Instructions
+- Features
+- Troubleshooting
+- Credits
 
 ---
 
@@ -63,19 +63,18 @@ Servo Connections (Arduino):
 
 ### System Requirements:
 
-- [ ] Python 3.8 or higher
+- [ ] Python 3.8 - 3.10 (Some libraries may not work with Python 3.14, kindly avoid using it)
 - [ ] Windows/Linux/macOS operating system
+- [ ] Arduino IDE
 
 ### Python Libraries:
 
-```bash
-opencv-python
-mediapipe
-numpy
-pyfirmata
-azure-cognitiveservices-speech
-pyserial
-```
+- opencv-python
+- mediapipe
+- numpy
+- pyfirmata
+- azure-cognitiveservices-speech
+- pyserial
 
 ### Azure Requirements:
 
